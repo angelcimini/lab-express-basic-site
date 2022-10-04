@@ -1,0 +1,25 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(249, 243, 167);
+}
+ul {
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style-type: none;
+}
+section {
+    text-align: center;
+}
+h4 {
+    color: rgb(255, 85, 0);
+    font-size: 2rem;
+}
+
+#containerAbout {
+    width: 80%;
+    margin: auto;
+}
