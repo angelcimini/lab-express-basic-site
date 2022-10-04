@@ -3,7 +3,14 @@ body {
     margin: 0px;
     background: rgb(249, 243, 167);
 }
+header {
+    background-color: rgb(125, 1, 249);
+}
+
 ul {
+    margin: 0;
+    padding: 20px;
+    text-shadow: 3px 3px black;
     font-size: x-large;
     display: flex;
     justify-content: space-around;
@@ -11,8 +18,16 @@ ul {
 li {
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+    height: 30px;
+    color: white;
+}
+
 section {
     text-align: center;
+    width: 90%;
+    margin: auto;
 }
 h4 {
     color: rgb(255, 85, 0);
@@ -20,11 +35,12 @@ h4 {
 }
 
 #containerImg {
-    width: 80%;
     margin: auto;
+    margin-top: 3rem;
 }
 
 img {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+    margin: 10px;
 }
